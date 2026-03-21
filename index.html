@@ -1,36 +1,87 @@
+
 <!DOCTYPE html>
-<html<head>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
     <title>MOON KLEAN</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-    <title>MOON KLEAN</title>
-</head>
+
 <body>
 
-<h1>🌙 MOON KLEAN</h1>
-<p>Tu hogar siempre limpio</p>
+<!-- VIDEO FONDO -->
+<video autoplay muted loop id="video-fondo">
+    <source src="videos/video.mp4" type="video/mp4">
+</video>
 
-<h2>Productos</h2>
+<div class="overlay"></div>
 
-<p>Lavalozalitro - $8.000</p><div class="producto">
-    <img src="imagenes/lavalozalitro.jpg" width="150">
-    <h2>Lavaloza</h2>
-    <p>$10.000</p>
-
-    <a href="https://wa.me/573024166221?text=Hola%20quiero%20comprar%20Lavaloza%20MOON%20KLEAN" target="_blank">
-        <button>Comprar</button>
-    </a>
+<!-- CONTENIDO PRINCIPAL -->
+<div class="contenido">
+    <h1>🌙 MOON KLEAN</h1>
+    <p>Tu hogar siempre limpio</p>
 </div>
-<p>Lavalozamediogalon - $10.000</p>
-<p>Lavalozagalon - $20.000</p>
-<p>Detergente - $20.000</p><a href="https://wa.me/573024166221?text=Hola%20quiero%20comprar%20Detergente%20MOON%20KLEAN" target="_blank">
-    <button>Comprar</button>
-</a>
-<p>Desengrasante - $15.000</p><a href="https://wa.me/573024166221?text=Hola%20quiero%20comprar%20Desengrasante%20MOON%20KLEAN" target="_blank">
-    <button>Comprar</button>
+
+<!-- BOTÓN WHATSAPP -->
+<a href="https://wa.me/573024166221" class="whatsapp" target="_blank">
+    💬
 </a>
 
-</a>
+<!-- PRODUCTOS -->
+<section class="productos">
+
+    <div class="card">
+        <img src="imagenes/lavalozalitro.jpg">
+        <h3>LAVALOZA LITRO</h3>
+        <p>$8.000</p>
+        <a href="https://wa.me/573024166221?text=Hola%20quiero%20comprar%20Lavaloza%20MOON%20KLEAN" target="_blank">
+            <button>Comprar</button>
+        </a>
+    </div>
+
+    <div class="card">
+        <img src="imagenes/lavalozamediogalon.jpg">
+        <h3>LAVALOZA MEDIO GALÓN</h3>
+        <p>$10.000</p>
+        <a href="https://wa.me/573024166221?text=Hola%20quiero%20comprar%20Lavaloza%20medio%20galon%20MOON%20KLEAN" target="_blank">
+            <button>Comprar</button>
+        </a>
+    </div>
+<div class="card">
+        <img src="imagenes/lavalozagalon3.8.jpg">
+        <h3>LAVALOZA MEDIO GALÓN</h3>
+        <p>$20.000</p>
+        <a href="https://wa.me/573024166221?text=Hola%20quiero%20comprar%20Lavaloza%20medio%20galon%20MOON%20KLEAN" target="_blank">
+            <button>Comprar</button>
+        </a>
+    </div>
+    <div class="card">
+        <img src="imagenes/detergente.jpg">
+        <h3>DETERGENTE</h3>
+        <p>$20.000</p>
+        <a href="https://wa.me/573024166221?text=Hola%20quiero%20comprar%20Detergente%20MOON%20KLEAN" target="_blank">
+            <button>Comprar</button>
+        </a>
+    </div>
+
+    <div class="card">
+        <img src="imagenes/desengrasante.jpg">
+        <h3>DESENGRASANTE</h3>
+        <p>$15.000</p>
+        <a href="https://wa.me/573024166221?text=Hola%20quiero%20comprar%20Desengrasante%20MOON%20KLEAN" target="_blank">
+            <button>Comprar</button>
+        </a>
+    </div>
+
+</section>
+
+<!-- GALERÍA -->
+<section class="galeria">
+    <img src="imagenes/lavalozalitro.jpg">
+    <img src="imagenes/detergente.jpg">
+    <img src="imagenes/desengrasante.jpg">
+</section>
 
 </body>
 </html>
