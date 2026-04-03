@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* VIDEO */
+#video-fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -2;
+}
+
+/* OSCURECER VIDEO */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+/* TEXTO CENTRAL */
+.contenido {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* TITULO */
+h1 {
+    font-size: 100px; /* tamaño gigante */
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: white;
+
+    -webkit-text-stroke: 2px #00c3ff;
+
+    text-shadow: 3px 3px 20px rgba(0,0,0,0.9);
+
+    margin: 0;
+}
+/* .contenido p {
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+}
+
+/* PRODUCTOS EN HORIZONTAL */
+.productos {
+    margin-top: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap; /* IMPORTANTE */
+    padding: 50px;
+}
+
+/* TARJETAS */
+.card {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 20px;
+    width: 250px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.08);
+}
+
+/* IMAGENES */
+.card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* BOTÓN */
+button {
+    background: #00c3ff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+/* WHATSAPP */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 50%;
+    text-decoration: none;
+}
